@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net8.0</TargetFramework>
+        <RootNamespace>Totvs.Desafio.ATS.Infraestrutura</RootNamespace>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="12.0.1" />
+      <PackageReference Include="MediatR.Extensions.Microsoft.DependencyInjection" Version="11.0.0" />
+      <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="8.0.0" />
+      <PackageReference Include="MongoDB.Driver" Version="2.23.1" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\Totvs.Desafio.ATS.Dominio\Totvs.Desafio.ATS.Dominio.csproj" />
+    </ItemGroup>
+
+</Project>
